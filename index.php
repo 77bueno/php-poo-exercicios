@@ -24,23 +24,9 @@
 </head>
 <body>
 <section>
-    <h1>Exercício 01 - Abstração e Encapsulamento</h1>
-    <h2>Criando uma classe Livro, atribuindo propriedades e seus métodos.</h2>
-    <p>Veja abaixo os dados do livro.</p>
+    <h1>Exercício 02 - Abstração e Encapsulamento</h1>
+    <h2>Implementação, Herança e Subclasses</h2>
 
-<?php
-require_once "src/Livro.php";
-
-$livro1 = new Livro;
-
-$livro1->setTitulo("Harry Potter - E o cálice de fogo");
-$livro1->setAutor("J. K. Rowling");
-$livro1->setPaginas(287);
-?>
-
-<p><b>Titulo do Livro:</b> <?=$livro1->getTitulo()?> </p>
-<p><b>Autor do Livro:</b> <?=$livro1->getAutor()?> </p>
-<p><b>Quantidade de páginas do livro:</b> <?=$livro1->getPaginas()?> </p>
 </section>
 </body>
 </html>
