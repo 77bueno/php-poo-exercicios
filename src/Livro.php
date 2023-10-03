@@ -1,5 +1,6 @@
 <?php 
 namespace Livraria;
+
 abstract class Livro {
     // Propriedades
     private string $titulo;

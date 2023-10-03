@@ -1,5 +1,5 @@
 <?php
-use Livraria\{ Tecnico, Programacao, Didatico };
+use Livraria\{ Tecnico, Programacao, Didatico, Web};
 require_once "vendor/autoload.php";
 
 $livroTecnico = new Tecnico;
@@ -27,10 +27,14 @@ $livroDidatico->setNivel(["médio"]);
 
 $livroWeb = new Web;
 
-
-
+$livroWeb->setTitulo("Java para crianças");
+$livroWeb->setAutor("Tiago b Santos");
+$livroWeb->setPaginas(650);
+$livroWeb->setArea("Programação");
 
 ?>
+
+<pre> <?=var_dump($livroWeb)?> </pre>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
