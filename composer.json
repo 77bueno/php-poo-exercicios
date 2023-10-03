@@ -1,0 +1,9 @@
+{
+    "name" : "victor/aulas-php-poo",
+    "description" : "Exercicio de projeto PHP com Orientação a Objetos e com classes gerenciadas pelo Composer",
+    "autoload" : {
+        "psr-4" : {
+            "Livraria\\" : "src/"
+        }
+    }
+}

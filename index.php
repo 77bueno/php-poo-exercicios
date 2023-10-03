@@ -1,4 +1,5 @@
 <?php
+use Livraria\{Tecnico, Programacao, Didatico, Livro};
 require_once "src/Tecnico.php";
 require_once "src/Programacao.php";
 require_once "src/Didatico.php";
