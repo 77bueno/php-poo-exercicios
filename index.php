@@ -1,8 +1,6 @@
 <?php
-use Livraria\{Tecnico, Programacao, Didatico, Livro};
-require_once "src/Tecnico.php";
-require_once "src/Programacao.php";
-require_once "src/Didatico.php";
+use Livraria\{ Tecnico, Programacao, Didatico };
+require_once "vendor/autoload.php";
 
 $livroTecnico = new Tecnico;
 
@@ -25,13 +23,20 @@ $livroDidatico->setAutor("Neide");
 $livroDidatico->setPaginas(250);
 $livroDidatico->setDisciplina("Portugues");
 $livroDidatico->setNivel(["médio"]);
+
+
+$livroWeb = new Web;
+
+
+
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Exercício 1</title>
+<title>Exercício 3</title>
 <style>
     body {
         background-color: lightsalmon;
@@ -76,7 +81,7 @@ $livroDidatico->setNivel(["médio"]);
 </head>
 <body>
     <h1 class="cor">
-        Exercício 02 - Abstração e Encapsulamento
+        Exercício 03 - Tudo junto e misturado
         <span>Implementação, Herança e Subclasses</span>
     </h1>
     
